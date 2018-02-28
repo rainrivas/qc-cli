@@ -1,7 +1,7 @@
 {
-  "name": "qc-cli",
+  "name": "rain-alm-cli",
   "version": "0.1.0",
-  "description": "A cli tool, built on node, to work with QC from terminal and allow for easy user actions",
+  "description": "A cli tool, built on node, to work with HP ALM (AKA Quality Center, HP Application Lifecycle Management) from terminal and allow for easy user actions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,7 +20,12 @@
     "quality",
     "center",
     "terminal",
-    "utility"
+    "utility",
+	"quality-center",
+	"application-lifecycle-management",
+	"scrum",
+	"agile",
+	"management"
   ],
   "author": "Efrain 'Rain' Rivas",
   "license": "MIT",
