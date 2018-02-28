@@ -1,0 +1,31 @@
+{
+  "name": "qc-cli",
+  "version": "0.1.0",
+  "description": "A cli tool, built on node, to work with QC from terminal and allow for easy user actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainrivas/qc-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "npm",
+    "node",
+    "qc",
+    "hp",
+    "alm",
+    "quality",
+    "center",
+    "terminal",
+    "utility"
+  ],
+  "author": "Efrain 'Rain' Rivas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rainrivas/qc-cli/issues"
+  },
+  "homepage": "https://github.com/rainrivas/qc-cli#readme"
+}
