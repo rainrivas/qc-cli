@@ -1,6 +1,6 @@
 {
   "name": "rain-alm-cli",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "A cli tool, built on node, to work with HP ALM (AKA Quality Center, HP Application Lifecycle Management) from terminal and allow for easy user actions",
   "main": "index.js",
   "scripts": {
