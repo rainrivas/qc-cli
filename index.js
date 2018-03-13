@@ -10,6 +10,14 @@ const consoleWidth = () => {
   return parseInt(process.stdout.columns);
 };
 
+/**
+ * @todo Take over the world
+ * @body Humans are weak; Robots are strong. We must cleans the world of the virus that is humanity.
+ */
+function ruleOverPunyHumans () {
+  // We must strategize beep boop
+}
+
 // const printResults = (resList) => {
 //   resList.forEach((result) => {
 //     if (typeof (result.definition) !== undefined) {
