@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rainrivas/qc-cli.git"
+    "url": "git+https://github.com/rainrivas/rain-alm-cli.git"
   },
   "keywords": [
     "cli",
@@ -30,9 +30,9 @@
   "author": "Efrain 'Rain' Rivas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rainrivas/ain-alm-cli.git/issues"
+    "url": "https://github.com/rainrivas/rain-alm-cli.git/issues"
   },
-  "homepage": "https://github.com/rainrivas/ain-alm-cli.git#readme",
+  "homepage": "https://github.com/rainrivas/rain-alm-cli.git#readme",
   "bin": {
     "ralm": "./index.js"
   },
