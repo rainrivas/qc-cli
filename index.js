@@ -6,6 +6,21 @@ const chalk = require('chalk');
 const prompts = require('prompts');
 const request = require('request');
 
+// Code chunk pulled straight from notifier github page {start}
+const updateNotifier = require('update-notifier');
+const pkg = require('./package.json');
+
+// Checks for available update and returns an instance
+const notifier = updateNotifier({pkg});
+
+// Notify using the built-in convenience method
+notifier.notify();
+// Code chunk pulled straight from notifier github page {end}
+
+if (notifier.update) {
+  console.log(`Update available: ${notifier.update.latest}`);
+}
+
 const consoleWidth = () => {
   return parseInt(process.stdout.columns);
 };
