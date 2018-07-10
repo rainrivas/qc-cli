@@ -25,26 +25,6 @@ const consoleWidth = () => {
   return parseInt(process.stdout.columns);
 };
 
-/**
- * @todo Take over the world
- * @body Humans are weak; Robots are strong. We must cleans the world of the virus that is humanity.
- */
-function ruleOverPunyHumans () {
-  // We must strategize beep boop
-}
-
-// const printResults = (resList) => {
-//   resList.forEach((result) => {
-//     if (typeof (result.definition) !== undefined) {
-//       console.log(chalk.bold.cyan('Word: ') + result.word);
-//       console.log(chalk.bold.cyan('Definition: ') + result.definition);
-//       console.log(chalk.bold.cyan('Score: ') + (result.thumbs_up - result.thumbs_down));
-//       console.log(chalk.bold.green('Ayys: ') + result.thumbs_up + ' | ' + chalk.bold.red('Nayys: ') + result.thumbs_down);
-//       console.log('='.repeat(consoleWidth()));
-//     }
-//   });
-// };
-
 prog
   .version('0.1.0')
   .option('-c, --config', 'Provide path to custom config', 'foo.config.js');
